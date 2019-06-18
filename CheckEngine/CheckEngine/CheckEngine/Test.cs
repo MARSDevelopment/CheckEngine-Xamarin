@@ -6,6 +6,6 @@ namespace CheckEngine
 {
     class Test
     {
-    public string TestString { get; set; }
+    public string TestString { get; set; test; }
   }
 }
