@@ -14,4 +14,19 @@
     <PackageReference Include="Xamarin.Forms" Version="4.0.0.425677" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MK1">
+      <HintPath>..\..\Debug\MK1.dll</HintPath>
+    </Reference>
+    <Reference Include="MK1.DBHandler">
+      <HintPath>..\..\Debug\MK1.DBHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="MK1.Trace">
+      <HintPath>..\..\Debug\MK1.Trace.dll</HintPath>
+    </Reference>
+    <Reference Include="MK1.Utilities">
+      <HintPath>..\..\Debug\MK1.Utilities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
