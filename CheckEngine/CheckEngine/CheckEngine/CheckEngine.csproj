@@ -21,8 +21,8 @@
     <Reference Include="MK1">
       <HintPath>..\..\Debug\MK1.dll</HintPath>
     </Reference>
-    <Reference Include="MK1.DBHandler">
-      <HintPath>..\..\Debug\MK1.DBHandler.dll</HintPath>
+    <Reference Include="MK1.Database">
+      <HintPath>..\..\Debug\MK1.Database.dll</HintPath>
     </Reference>
     <Reference Include="MK1.Trace">
       <HintPath>..\..\Debug\MK1.Trace.dll</HintPath>

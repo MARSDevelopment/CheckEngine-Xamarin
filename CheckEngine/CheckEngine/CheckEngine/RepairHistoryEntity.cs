@@ -6,7 +6,7 @@ using System.Text;
 namespace CheckEngine
 {
   [Serializable]
-  class RepairHistoryEntity : Entity
+  public class RepairHistoryEntity : Entity
   {
     public UInt32 LastAirFilterRepairMileage { get; set; }
     public UInt32 LastAlignmentRepairMileage { get; set; }

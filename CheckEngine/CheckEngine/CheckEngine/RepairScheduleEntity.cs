@@ -5,7 +5,8 @@ using System.Text;
 
 namespace CheckEngine
 {
-  class RepairScheduleEntity : Entity
+  [Serializable]
+  public class RepairScheduleEntity : Entity
   {
     public UInt32 NotificationMileageThreshold { get; set; }
     public UInt32 AirFilterRepairFrequency { get; set; }

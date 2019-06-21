@@ -6,7 +6,7 @@ using System.Text;
 namespace CheckEngine
 {
   [Serializable]
-  class CarEntity : Entity
+  public class CarEntity : Entity
   {
     public string Name { get; set; }
     public UInt16 Year { get; set; }
@@ -15,7 +15,5 @@ namespace CheckEngine
     public UInt16 CurrentMileage { get; set; }
     public Guid RepairHistoryID { get; set; }
     public Guid RepairScheduleID { get; set; }
-
-    public CarEntity() { }
   }
 }
