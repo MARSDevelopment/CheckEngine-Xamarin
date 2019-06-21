@@ -8,7 +8,6 @@ namespace CheckEngine
   [Serializable]
   public class RepairScheduleEntity : Entity
   {
-    public UInt32 NotificationMileageThreshold { get; set; }
     public UInt32 AirFilterRepairFrequency { get; set; }
     public UInt32 AlignmentRepairFrequency { get; set; }
     public UInt32 AlternatorRepairFrequency { get; set; }
@@ -55,12 +54,8 @@ namespace CheckEngine
 
     public List<RepairEntity> RepairFrequencySettings { get; set; } = new List<RepairEntity>();
 
-    public RepairScheduleEntity() { }
-
     public void InitializeTestSettings()
     {
-      NotificationMileageThreshold = 5000;
-
       foreach (var type in (RepairType[])Enum.GetValues(typeof(RepairType)))
       {
         RepairFrequencySettings.Add(new RepairEntity() { EntityID = Guid.NewGuid(), RepairType = type, Mileage = 30000 });
