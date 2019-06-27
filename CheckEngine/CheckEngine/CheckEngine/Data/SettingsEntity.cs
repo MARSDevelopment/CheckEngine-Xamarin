@@ -13,7 +13,7 @@ namespace CheckEngine
   }
 
   [Serializable]
-  public class Settings : Entity
+  public class SettingsEntity : Entity
   {
     public UInt32 RepairNotificationMileageThreshold { get; set; }
     public bool EnableLockScreenNotifications { get; set; }
